@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:800,700&subset=cyrillic');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ddddda;
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    color:#0b212f;
+}
+
+header  {
+    height:50px;
+    background-image:url(img/06.svg);
+    background-size: 50px;
+}
+
+footer  {
+    height: 50px;
+    background-image:url(img/06.svg);
+    background-size: 50px;
+    margin-top:560px;
+}
+.logo {
+    font-size:50px;
+    text-align:left;
+    
+}
+
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+        color:#0b212f;
+text-align: center;
+    margin-top:-50px;
+    border:1px solid #ddddda;
+}
+
+.menu > li {
+  position: relative;
+  display: inline-block;
+  margin-right: -4px;
+}
+
+
+
+.menu a:hover {
+  color: aliceblue;
+}
+
+.menu .submenu {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+    left: 1px;
+  width: 170px;
+      display: none;
+    background-color:#C0C0C0;
+    border-radius: 20px;
+
+}
+
+.menu > li:hover .submenu {
+  display: block;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    padding-left:10px;
+    padding-right:10px;
+    
+}
+
+a:link {
+    color: #44586a;
+
+}
+a:visited {
+    color:#0b212f;
+}
+a:hover{
+    color: aliceblue;
+}
+
+.text {
+    text-align: center;
+    margin-top: 50px;
+    font-size:25px;
+    word-spacing:2px;
+}
